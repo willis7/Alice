@@ -4,6 +4,8 @@
 
 Named after the librarian from Ghostbusters, Alice is a simple application written in Go to organise Kindle Clippings.
 
+## Build Status
+[![Build Status](https://travis-ci.org/willis7/Alice.svg?branch=master)](https://travis-ci.org/willis7/Alice)
 
 ## Todo
 
