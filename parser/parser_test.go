@@ -1,6 +1,10 @@
 package parser
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/willis7/clippings-lib/clipping"
+)
 
 func TestParseAuthor(t *testing.T) {
 	// Given: a long string
@@ -39,4 +43,26 @@ func TestSplitClippings(t *testing.T) {
 	if got, expected := len(clips), 5; got != expected {
 		t.Errorf("spitClippings(%q) returned %d clippings, expected %d", s, got, expected)
 	}
+}
+
+func TestParseClipping(t *testing.T) {
+	// Given: a clipping which is correctly formatted and an empty clipping object
+	s := `The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+	- Your Highlight at location 1763-1763 | Added on Sunday, 4 January 2015 22:25:46
+
+	Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”
+	==========`
+	got := clipping.Clipping{}
+
+	// When: I parse the clipping
+	parseClipping(s, &got)
+
+	// Then: expect a correctly populated sturcture
+	expected := clipping.Clipping{Book: `The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change`,
+		Author:  `Stephen R. Covey`,
+		Content: `Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”`}
+	if got != expected {
+		t.Error(`parseClipping didn't return expected object`)
+	}
+
 }
