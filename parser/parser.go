@@ -1,20 +1,23 @@
 package parser
 
 import (
+	"bufio"
 	"regexp"
 	"strings"
+
+	"github.com/willis7/clippings-lib/clipping"
 )
 
 const clippingSeparator string = "=========="
 const authorRegxp string = `\((.*?)\)` // this regexp will find a bracket pair and all characters inbetween
-const titleRegxp string = `^(.*?)\(`   // this regexp will find a bracket pair and all characters inbetween
+const titleRegxp string = `^(.*?)\(`   // this regexp will find everything up to, and including a "("
 
 // parseTitle
-// uses a regular expression to find the title in a random string.
+// uses a regular expression to find the title in a Kindle formatted string.
 // The Kindle always puts the title before the author.
-func parseTitle(s string) string {
+func parseTitle(input string) string {
 	r, _ := regexp.Compile(titleRegxp)
-	match := r.FindString(s)
+	match := r.FindString(input)
 
 	title := match[0 : len(match)-2]
 
@@ -22,11 +25,11 @@ func parseTitle(s string) string {
 }
 
 // parseAuthor
-// uses a regular expression to find the author name in a random string.
+// uses a regular expression to find the author name in a Kindle formatted string.
 // The Kindle always puts the author name between braces (<<author>>).
-func parseAuthor(s string) string {
+func parseAuthor(input string) string {
 	r, _ := regexp.Compile(authorRegxp)
-	match := r.FindString(s)
+	match := r.FindString(input)
 
 	// trim the brackets. Unfortunately "look behind" and "look ahead" are not supported in Go regexp
 	name := match[1 : len(match)-1]
@@ -34,20 +37,59 @@ func parseAuthor(s string) string {
 	return name
 }
 
-// splitClippings uses a clippingSeparator pattern to break a larger string
+// splitClippings
+// uses a clippingSeparator pattern to break a larger string
 // into smaller chunks
-func splitClippings(s string) []string {
-	clips := strings.Split(s, clippingSeparator)
+func splitClippings(input string) []string {
+	clips := strings.Split(input, clippingSeparator)
 
 	return clips
+}
+
+// parseClipping
+// takes a single clipping string and populates a Clipping object
+func parseClipping(input string, c *clipping.Clipping) {
+	lineNumber := 1
+
+	// create a scanner object to read the clipping
+	scanner := bufio.NewScanner(strings.NewReader(input))
+	// iterate over the lines "\n" is the delimiter
+	scanner.Split(bufio.ScanLines)
+
+	for scanner.Scan() {
+		// from the line number, determine what parsing is required
+		switch lineNumber {
+		case 1:
+			parseTitleAndAuthor(scanner.Text(), c)
+		case 4:
+			parseContent(scanner.Text(), c)
+		default:
+			break
+		}
+		lineNumber++
+	}
+}
+
+// parseTitleAndAuthor
+// the first line in a Kindle clipping chunk includes the title and author
+// this function takes the
+func parseTitleAndAuthor(s string, c *clipping.Clipping) {
+	c.Book = parseTitle(s)
+	c.Author = parseAuthor(s)
+}
+
+// parseContent
+// the content is always the
+func parseContent(input string, c *clipping.Clipping) {
+
+	c.Content = strings.TrimSpace(input)
 }
 
 // // FileToStructs takes a clippings.txt file and returns an array of Clipping objects
 // func FileToStructs(filename string) ([]*clipping.Clipping, error) {
 //
 // 	// Convert the file to bytes
-// 	fileStream, err := ioutil.ReadFile(filename)
-// 	if err != nil {
+// 	fileStream, err := ioutil.ReadFile(filename); if err != nil {
 // 		log.Fatal(err)
 // 	}
 //

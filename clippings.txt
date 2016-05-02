@@ -1,0 +1,880 @@
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1005-1009 | Added on Thursday, 4 December 2014 00:19:59
+
+Proactive people focus their efforts in the Circle of Influence. They work on the things they can do something about. The nature of their energy is positive, enlarging and magnifying, causing their Circle of Influence to increase. Reactive people, on the other hand, focus their efforts in the Circle of Concern. They focus on the weakness of other people, the problems in the environment, and circumstances over which they have no control. Their focus results in blaming and accusing attitudes, reactive language, and increased feelings of victimization.
+==========
+A Practical Approach to Performance Interventions and Analysis_ 50 Models for Building a High-Performance Culture (Gene E. Fusch)
+- Your Bookmark at location 333 | Added on Saturday, 27 December 2014 11:28:13
+
+
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1258-1259 | Added on Saturday, 3 January 2015 23:04:21
+
+“Management is doing things right; leadership is doing the right things.”
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1268-1269 | Added on Saturday, 3 January 2015 23:06:54
+
+We are more in need of a vision or designation and a compass (a set of principles or directions) and less in need of a road map.
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1279-1280 | Added on Saturday, 3 January 2015 23:09:10
+
+Efficient management without effective leadership is, as one individual phrased it, “like straightening deck chairs on the Titanic.”
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1353-1363 | Added on Saturday, 3 January 2015 23:22:20
+
+Succeed at home first. Seek and merit divine help. Never compromise with honesty. Remember the people involved. Hear both sides before judging. Obtain counsel of others. Defend those who are absent. Be sincere yet decisive. Develop one new proficiency a year. Plan tomorrow's work today. Hustle while you wait. Maintain a positive attitude. Keep a sense of humor. Be orderly in person and in work. Do not fear mistakes -- fear only the absence of creative, constructive, and corrective responses to those mistakes. Facilitate the success of subordinates. Listen twice as much as you speak. Concentrate all abilities and efforts on the task at hand, not worrying about the next job or promotion.
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 1763-1763 | Added on Sunday, 4 January 2015 22:25:46
+
+Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”
+==========
+MONEY Master the Game (Tony Robbins)
+- Your Highlight at location 1054-1055 | Added on Tuesday, 6 January 2015 22:51:08
+
+The man on top of the mountain didn’t fall there. —VINCE LOMBARDI
+==========
+MONEY Master the Game (Tony Robbins)
+- Your Highlight at location 1169-1170 | Added on Tuesday, 6 January 2015 23:01:53
+
+you should plan to save at least a minimum of 10% of your income, although in today’s economy many agree 15% is a far better number,
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 2022-2023 | Added on Sunday, 25 January 2015 22:34:24
+
+No involvement, no commitment.
+==========
+The Art of War (Sun Tzu)
+- Your Highlight on page 12 | location 91-93 | Added on Sunday, 25 January 2015 22:41:17
+
+If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.
+==========
+The Art of War (Sun Tzu)
+- Your Highlight on page 13 | location 94-95 | Added on Sunday, 25 January 2015 22:42:49
+
+To secure ourselves against defeat lies in our own hands, but the opportunity of defeating the enemy is provided by the enemy himself.
+==========
+The Art of War (Sun Tzu)
+- Your Highlight on page 14 | location 103-103 | Added on Sunday, 25 January 2015 22:44:35
+
+What the ancients called a clever fighter is one who not only wins, but excels in winning with ease.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 169-170 | Added on Thursday, 12 February 2015 23:18:34
+
+“Gather together those things that change for the same reason, and separate those things that change for different reasons.”
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 199-200 | Added on Thursday, 12 February 2015 23:27:42
+
+The golden rule: can you make a change to a service and deploy it by itself without changing anything else?
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 423-424 | Added on Monday, 16 February 2015 22:36:07
+
+architects have a duty to ensure that the system is habitable for developers too.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 442-444 | Added on Monday, 16 February 2015 22:39:36
+
+the value gained by building tooling and expertise around Cassandra is more important than having to support and operate at scale multiple other platforms that may be a better fit for certain tasks.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 447-448 | Added on Monday, 16 February 2015 22:40:20
+
+“be worried about what happens between the boxes, and be liberal in what happens inside.”
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 614-616 | Added on Monday, 16 February 2015 23:09:15
+
+Governance ensures that enterprise objectives are achieved by evaluating stakeholder needs, conditions and options; setting direction through prioritisation and decision making; and monitoring performance, compliance and progress against agreed-on direction and objectives.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 862-863 | Added on Wednesday, 18 February 2015 23:48:15
+
+This means avoiding integration technology that dictates what technology stacks we can use to implement our microservices.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 1008-1009 | Added on Monday, 23 February 2015 23:55:44
+
+You should assume that your networks are plagued with malevolent entities ready to unleash their ire on a whim.
+==========
+The Innovators (Walter Isaacson)
+- Your Highlight at location 224-224 | Added on Thursday, 26 February 2015 23:43:26
+
+Thomas Carlyle declared that “the history of the world is but the biography of great men,”
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 1429-1429 | Added on Monday, 2 March 2015 22:50:46
+
+Semantic versioning
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 1592-1593 | Added on Wednesday, 4 March 2015 19:09:11
+
+“Build if it is unique to what you do, and can be considered a strategic asset; buy if your use of the tool isn’t that special.”
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 1608-1609 | Added on Wednesday, 4 March 2015 19:13:29
+
+the cost of customization can be more expensive than building something bespoke from scratch!
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 1700-1700 | Added on Wednesday, 4 March 2015 23:27:57
+
+Working Effectively with Legacy Code (Prentice-Hall), Michael Feathers
+==========
+Charisma on Command (Charlie Houpert)
+- Your Highlight at location 398-399 | Added on Wednesday, 11 March 2015 23:19:13
+
+“Be more concerned with your character than your reputation, because your character is what you really are, while your reputation is merely what others think you are.”
+==========
+Charisma on Command (Charlie Houpert)
+- Your Highlight at location 729-729 | Added on Friday, 20 March 2015 00:53:26
+
+“Emotions don’t come to us.  We go to them.”
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 12 | location 166-167 | Added on Sunday, 5 April 2015 13:56:00
+
+We're quick to blame ourselves for lack of progress, but slow to blame our strategies.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 14 | location 200-200 | Added on Sunday, 5 April 2015 14:01:51
+
+Thinkertoys by Michael Michalko.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 17 | location 248-248 | Added on Sunday, 5 April 2015 14:09:43
+
+When you invest in yourself in key areas like fitness and learning, you tend to do it in other areas too.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 18 | location 266-267 | Added on Sunday, 5 April 2015 14:12:35
+
+When you add good habits into your life, it illuminates another possible path, restores your confidence, and gives you hope.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 20 | location 293-293 | Added on Sunday, 5 April 2015 14:16:15
+
+To summarize, a mini habit is a VERY small positive behavior that you force yourself to do every day.
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 470 | Added on Tuesday, 7 April 2015 23:16:44
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 525 | Added on Tuesday, 7 April 2015 23:17:21
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 541 | Added on Tuesday, 7 April 2015 23:17:30
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 570 | Added on Tuesday, 7 April 2015 23:18:10
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 587 | Added on Tuesday, 7 April 2015 23:18:30
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 602 | Added on Tuesday, 7 April 2015 23:18:40
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 673 | Added on Tuesday, 7 April 2015 23:19:35
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 705 | Added on Tuesday, 7 April 2015 23:19:53
+
+
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 720 | Added on Tuesday, 7 April 2015 23:20:03
+
+
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1268-1271 | Added on Monday, 13 April 2015 22:54:04
+
+Great problem solvers start by developing a deep understanding of the situation through direct experience. They collaborate with people who have different perspectives and knowledge. They are creative, efficient, and highly disciplined in uncovering the essential problems and designing possible solutions. They test multiple ideas and focus on learning as much as they can. They ask a lot of questions and challenge assumptions, even their own assumptions. They regularly step back and reframe the situation to be sure they are solving the right problem.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1274-1274 | Added on Monday, 13 April 2015 22:54:51
+
+proceeding with a solution absent a good understanding of the underlying problem is all too often a recipe for disaster.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1320-1321 | Added on Monday, 13 April 2015 23:02:58
+
+A development team, Gilb contends, should be given a short list of measurable outcomes (perhaps a dozen), the end goals of the system.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1333-1333 | Added on Monday, 13 April 2015 23:05:46
+
+Starting with a long list of detailed “requirements” is jumping to a solution before taking time to understand the problem.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1345-1346 | Added on Monday, 13 April 2015 23:07:50
+
+competitive differentiation for a lot of products has shifted from engineering to design.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1446-1448 | Added on Thursday, 16 April 2015 17:48:04
+
+It boggles the mind why more clients don’t demand concept pitches as a selection method, but convention dictates that clients tell vendors what they want and then vendors respond with unrealistic price quotes.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1465-1465 | Added on Thursday, 16 April 2015 17:52:07
+
+In the same way agile values People over Process, where over is the operative term, we say Product over Project.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 30 | location 436-437 | Added on Sunday, 19 April 2015 14:49:24
+
+The only way to create habits is to teach the rest of your brain to like what the prefrontal cortex wants.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 37 | location 537-538 | Added on Sunday, 19 April 2015 15:43:00
+
+Motivation is unreliable because it’s based on how you feel, and we’ve known for centuries that human feelings are fluid and unpredictable.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 41 | location 591-592 | Added on Sunday, 19 April 2015 15:53:46
+
+As a behavior begins its transition into habit, you will become less emotional about it. It will even begin to seem boring and mundane.
+==========
+Smoothies For Weight Loss: A 7 Day Plan To Lose Weight, Cleanse And Feel Great! (smoothies, smoothies for weight loss, smoothie recipes, smoothie book, smoothie recipe book, smoothie detox) (Lamb, Sammy)
+- Your Bookmark at location 609 | Added on Monday, 20 April 2015 08:10:54
+
+
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 45 | location 675-676 | Added on Monday, 20 April 2015 17:41:24
+
+the five biggest factors found to cause ego depletion were effort, perceived difficulty, negative affect, subjective fatigue, and blood glucose levels.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 47 | location 690-691 | Added on Monday, 20 April 2015 17:43:15
+
+“It's not what we do once in a while that shapes our lives. It's what we do consistently.” ― Anthony Robbins
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 61 | location 907-908 | Added on Tuesday, 21 April 2015 16:59:59
+
+“Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.” ― Sun Tzu, The Art of War
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 64 | location 946-946 | Added on Tuesday, 21 April 2015 17:13:13
+
+Self-efficacy is your belief in your ability to influence an outcome.
+==========
+Build Your Own PaaS with Docker (Oskar Hane)
+- Your Bookmark at location 801 | Added on Thursday, 23 April 2015 13:17:59
+
+
+==========
+52 Small Changes: One Year to a Happier, Healthier You (Blumenthal, Brett)
+- Your Highlight on page 16 | location 345-345 | Added on Monday, 27 April 2015 22:28:09
+
+Drink the amount of water in ounces that equals your weight in pounds divided by two.
+==========
+Build Your Own PaaS with Docker (Oskar Hane)
+- Your Highlight at location 1313-1314 | Added on Wednesday, 29 April 2015 22:02:21
+
+"Developer Productivity: Developer productivity is our battle cry, at the core of everything we do. Why require three steps when one will do? Why require any action at all when zero steps will do?"
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 2051-2052 | Added on Saturday, 9 May 2015 16:45:07
+
+Habit 1 says, “You're the creator. You are in charge.”
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 2054-2054 | Added on Saturday, 9 May 2015 16:46:28
+
+Habit 2 is the first or mental creation.
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 2057-2058 | Added on Saturday, 9 May 2015 16:46:37
+
+Habit 3, then, is the second creation -- the physical creation.
+==========
+The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)
+- Your Highlight at location 2079-2081 | Added on Saturday, 9 May 2015 16:52:39
+
+Integrity is, fundamentally, the value we place on ourselves. It's our ability to make and keep commitments to ourselves, to “walk our talk.” It's honor with self, a fundamental part of the character ethic, the essence of proactive growth.
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 477-478 | Added on Tuesday, 12 May 2015 17:48:57
+
+unfortunately for this approach, along with the agility, scalability, and cost advantages of the cloud, the distributed nature of these third-party-provided services also introduced new risk factors.
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 504-505 | Added on Tuesday, 12 May 2015 17:56:16
+
+Cloud applications are inherently distributed, and hence they are necessarily delivered over a network.
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 517-518 | Added on Tuesday, 12 May 2015 17:59:04
+
+compute, network, and data resources in the cloud should be provided on short order. This property is known as elasticity.
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 537-538 | Added on Tuesday, 12 May 2015 18:03:39
+
+The noisy neighbor problem might manifest when a customer’s demand on host resources impacts the performance experienced by another customer running on the same host;
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 541-542 | Added on Tuesday, 12 May 2015 18:04:20
+
+there is no absolute proof that the walls between virtual machines belonging to unrelated customers are completely airtight.
+==========
+Building the Infrastructure for Cloud Security_ A Solutions View (Raghuram Yeluri)
+- Your Highlight at location 544-546 | Added on Tuesday, 12 May 2015 18:05:43
+
+customers with sensitive workloads will, as a matter of practice, decline to run them in public cloud environments, choosing instead to run them in corporate-owned infrastructure.
+==========
+Learning Spring Boot (Greg L. Turnquist)
+- Your Highlight at location 593-594 | Added on Wednesday, 13 May 2015 17:51:03
+
+Its engine plugs in via the th namespace, using that as the way to introduce expressions, access model objects, and so on.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1487-1488 | Added on Thursday, 14 May 2015 21:37:49
+
+Every product delivers an experience, and if you don’t understand the experience that your product creates, you don’t really understand your product at all.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1541-1542 | Added on Thursday, 14 May 2015 21:44:00
+
+What product strategy options are available and how can we intelligently decide which option will give the best results?
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1588-1589 | Added on Thursday, 14 May 2015 21:51:41
+
+There are many approaches to developing empathy; among our favorites are journey mapping and adoption chain analysis.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1661-1661 | Added on Thursday, 14 May 2015 21:58:25
+
+This Is Lean: Resolving the Efficiency Paradox,
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1666-1667 | Added on Thursday, 14 May 2015 21:59:28
+
+A company with a lean mindset leverages the intelligence of its people and does not tolerate insensitive treatment of workers.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1680-1682 | Added on Thursday, 14 May 2015 22:01:48
+
+switch from the traditional model of release-oriented projects to a lean and agile model that was centered on fast, focused feature development in empowered feature teams.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1696-1697 | Added on Thursday, 14 May 2015 22:04:27
+
+Change requests, along with all the time and energy they used to absorb, just simply disappeared.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1708-1709 | Added on Thursday, 14 May 2015 22:06:45
+
+“In the old days, allocation of people to multiple projects led to waste because of context switching and restarts. When the going got tough, people ran away to other projects. Now we solve the problem together.”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1740-1741 | Added on Thursday, 14 May 2015 22:18:29
+
+Releases would be divorced from feature development and occur at regular intervals; whatever features were ready for release by the deadline would be included in the release.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1750-1750 | Added on Thursday, 14 May 2015 22:19:37
+
+“Since we are living in uncertain times, let’s not make it worse by hiding things,”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1775-1775 | Added on Saturday, 16 May 2015 14:23:29
+
+Projects often create artificial coupling between features that can, and generally should, be thought of as separate concepts.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1775-1777 | Added on Saturday, 16 May 2015 14:23:55
+
+Abandoning projects was a key step in helping teams think about individual features in a more holistic, customer-focused way. Organizing around features also helps eliminate multitasking, because teams work on one feature at a time.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1785-1786 | Added on Saturday, 16 May 2015 14:27:44
+
+As much as possible, decision-making authority shifted from functional specialists and project managers to small, multidiscipline teams that were trusted to make good decisions.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1790-1790 | Added on Saturday, 16 May 2015 14:30:07
+
+what really happened was that the right work got done in half the time (the hit rate increased).
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1814-1815 | Added on Saturday, 16 May 2015 14:35:51
+
+high speed goes hand in hand with serious discipline and excellent quality.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1831-1832 | Added on Saturday, 16 May 2015 15:01:34
+
+Projects must be small—no longer than three weeks.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1842-1844 | Added on Saturday, 16 May 2015 15:04:48
+
+If the tests don’t pass, it’s the developer’s job to find out why and fix it. This isn’t too much of a burden, because after all, only an hour earlier all the tests worked, so the problem lies in the last hour’s worth of work.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1844-1846 | Added on Saturday, 16 May 2015 15:08:43
+
+In the past, portfolio management was handled centrally, with the leadership team deciding which projects to put into the queues. But then the company experimented with creating dedicated teams for each product area and found that the teams, in discussion with their business partners, made good decisions on projects without much need for the centralized system.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1866-1868 | Added on Sunday, 17 May 2015 10:30:20
+
+“If you deliver fast, you are focused on customers; you have to eliminate waste; you must have high quality; you will be constantly learning; decisions must be made at the team level; you have to keep on improving; and you are optimizing the whole system.”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1911-1912 | Added on Sunday, 17 May 2015 10:39:45
+
+launch a minimum viable product (MVP) as soon as possible and use it to test and refine assumptions.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1958-1960 | Added on Sunday, 17 May 2015 21:33:13
+
+■ We create innovative products while managing risk by prototyping early and cheaply. ■ We don’t launch on date; we launch on quality. ■ We ensure that our products go from being great at launch to becoming amazing by relentlessly tweaking after launch.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 1975-1976 | Added on Sunday, 17 May 2015 21:34:38
+
+A squad is a small, cross-functional, self-organizing development team.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Bookmark at location 1985 | Added on Monday, 18 May 2015 22:26:04
+
+
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2004-2005 | Added on Monday, 18 May 2015 22:30:42
+
+The product is simply not worth building until we can show a compelling narrative and a runnable prototype that fulfills it,
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2019-2019 | Added on Monday, 18 May 2015 22:33:29
+
+We need it to be narrative complete, not feature complete.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2041-2042 | Added on Monday, 18 May 2015 22:38:07
+
+Looking at the metrics, new features and improvements don’t seem to be moving the needle a lot. This means the product is approaching a “local maximum”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2057-2058 | Added on Monday, 18 May 2015 22:40:54
+
+You can either manage to deadline and let scope vary (Ericsson Case 1), or you can manage to scope and let deadline vary (Ericsson Case 2). But not both.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2082-2083 | Added on Monday, 18 May 2015 22:44:47
+
+Disruptive new businesses have a better chance at success if they are formed as separate business units rather than embedded in existing product lines.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2099-2100 | Added on Monday, 18 May 2015 22:48:06
+
+“Disruptive innovation is not only a way to transformation, but to entirely new revenue streams.”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2132-2134 | Added on Monday, 18 May 2015 22:53:18
+
+And yet, when a market segment is disrupted, it is rare that the disrupter is an incumbent. It’s almost as if successful companies don’t spend the time to ask themselves if there might be a better way to solve their customers’ problems.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2204-2205 | Added on Monday, 18 May 2015 23:05:08
+
+culture starts with the insight that creativity is not a solo act; it involves a large number of people from different disciplines working effectively together, constantly solving problems.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2242-2243 | Added on Wednesday, 20 May 2015 22:23:55
+
+Asking software developers to write more code is like asking authors to put more words in their books or teachers to put more children in their classrooms.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2246-2247 | Added on Wednesday, 20 May 2015 22:25:01
+
+The more complexity you add, the more difficult and expensive the code base is to change.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2263-2264 | Added on Wednesday, 20 May 2015 22:28:26
+
+the best way to cut the IT budget is not to do more with less, but to do less of the stuff that does not need to be done and focus on the stuff that has real impact.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2269-2269 | Added on Wednesday, 20 May 2015 22:29:32
+
+software is never finished, it’s released.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2275-2276 | Added on Wednesday, 20 May 2015 22:31:16
+
+“Couldn’t some features have been removed so you could have delivered high-quality software?”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2283-2284 | Added on Wednesday, 20 May 2015 22:32:05
+
+Peter Drucker once said, “There is nothing quite so useless as doing with great efficiency something that should not be done at all.”
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2294-2295 | Added on Wednesday, 20 May 2015 22:34:11
+
+Tolerate failure but make sure it’s survivable, make sure it’s recognizable, and kill it quickly.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2312-2313 | Added on Wednesday, 20 May 2015 22:37:43
+
+Innovative companies, on the other hand, have a portfolio of risky ideas that are in various states of investigation and development.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2379-2379 | Added on Thursday, 21 May 2015 17:31:20
+
+Creating small, complete teams inside of the company is a great way to bring a startup mindset to big companies.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2380-2380 | Added on Thursday, 21 May 2015 17:33:19
+
+Innovative companies are decentralized companies.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2400-2401 | Added on Thursday, 21 May 2015 17:38:20
+
+When market-focused teams exist and have the leadership, the autonomy, the time, and the motivation, a good number of them can be expected to generate new ideas and then figure out how to transform those ideas into innovative new products, platforms, and services.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2450-2450 | Added on Thursday, 21 May 2015 17:47:14
+
+independent local growth team (LGT)
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2456-2458 | Added on Thursday, 21 May 2015 17:47:38
+
+LGT concept, which is based on five key principles: 1. Shift power to where the growth is. 2. Build new offerings from the ground up. 3. Build LGTs from the ground up, like new companies. 4. Customize objectives, targets, and metrics. 5. Have the LGT report to someone high in the organization.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Bookmark at location 2472 | Added on Thursday, 21 May 2015 17:53:05
+
+
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2495-2496 | Added on Thursday, 21 May 2015 17:56:27
+
+Conway’s Law21 says the system architecture reflects corporate structure
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2502-2502 | Added on Thursday, 21 May 2015 17:59:10
+
+Imagine a 5 change in some dimension of your business.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2528-2529 | Added on Thursday, 21 May 2015 18:01:44
+
+stop thinking about software development as a delivery process and to start thinking of it as a problem-solving process, a creative process.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2561-2562 | Added on Thursday, 21 May 2015 18:08:04
+
+the path to genuine efficiency is flow efficiency—moving ideas from concept to cash (or trash) with as little delay as possible.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2565-2566 | Added on Thursday, 21 May 2015 18:09:05
+
+Flow-efficient development is organized around product concepts as they move from inception to commercialization.
+==========
+The Lean Mindset_ Ask the right questions (Mary Poppendieck)
+- Your Highlight at location 2575-2576 | Added on Thursday, 21 May 2015 18:10:56
+
+infrastructure is a commodity and multidiscipline teams are expected to ask the right questions, solve the right problems, and deliver solutions that customers love.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2010-2011 | Added on Monday, 25 May 2015 14:54:49
+
+the data pump should be built and managed by the same team that manages the service.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2015-2016 | Added on Monday, 25 May 2015 14:57:12
+
+As we explicitly state that we deploy these together, and don’t open up access to the schema to anyone outside of the service team, many of the traditional DB integration challenges are largely mitigated.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2115-2116 | Added on Monday, 25 May 2015 15:39:37
+
+CI server detects that the code has been committed, checks it out, and carries out some verification like making sure the code compiles and that tests pass.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2136-2137 | Added on Monday, 25 May 2015 15:42:37
+
+without some verification that our code behaves as expected isn’t CI.
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 2126 | Added on Monday, 25 May 2015 15:42:47
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2158-2159 | Added on Monday, 25 May 2015 15:46:30
+
+cycle time, the speed at which we can move a single change from development to live.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2436-2437 | Added on Tuesday, 26 May 2015 22:21:22
+
+Google has been known to quite happily use embedded Jetty containers for serving static content directly, so we know these things can operate at scale.
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 2454 | Added on Tuesday, 26 May 2015 22:23:55
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2463-2463 | Added on Tuesday, 26 May 2015 22:25:22
+
+the smarter the PaaS solutions try to be, the more they go wrong.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2475-2477 | Added on Tuesday, 26 May 2015 22:27:31
+
+if we automate control of our hosts, and deployment of the services, then there is no reason why adding more hosts should increase our workload in a linear fashion.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2517-2518 | Added on Tuesday, 26 May 2015 22:33:33
+
+hypervisor, which has two key jobs. First, it maps resources like CPU and memory from the virtual host to the physical host. Second, it acts as a control layer, allowing us to manipulate the virtual machines themselves.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2586-2587 | Added on Tuesday, 26 May 2015 22:46:11
+
+I talked earlier about PaaS solutions. My struggle with them has always been that they often get the abstraction level wrong, and that self-hosted solutions lag significantly behind hosted solutions like Heroku. Docker gets much more of this right,
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2597-2598 | Added on Tuesday, 26 May 2015 22:48:06
+
+After many years of working in this space, I am convinced that the most sensible way to trigger any deployment is via a single, parameterizable command-line call.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2615-2616 | Added on Tuesday, 26 May 2015 22:51:16
+
+The tool I’ve used the most for this is Fabric, a Python library designed to map command-line calls to functions,
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 2672 | Added on Wednesday, 27 May 2015 18:37:35
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2686-2688 | Added on Wednesday, 27 May 2015 18:41:31
+
+If you currently carry out large amounts of manual testing, I would suggest you address that before proceeding too far down the path of microservices, as you won’t get many of their benefits if you are unable to validate your software quickly and efficiently.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2761-2762 | Added on Monday, 1 June 2015 21:18:09
+
+Our service tests want to test a slice of functionality across the whole service, but to isolate ourselves from other services we need to find some way to stub out all of our collaborators.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2834-2836 | Added on Monday, 1 June 2015 21:31:03
+
+A test suite with flaky tests can become a victim of what Diane Vaughan calls the normalization of deviance — the idea that over time we can become so accustomed to things being wrong that we start to accept them as being normal and not a problem.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2850-2852 | Added on Monday, 1 June 2015 21:33:26
+
+Sometimes organizations react by having a dedicated team write these tests. This can be disastrous. The team developing the software becomes increasingly distant from the tests for its code.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2884-2886 | Added on Monday, 1 June 2015 21:39:33
+
+The larger the scope of a deployment and the higher the risk of a release, the more likely we are to break something. A key driver to ensuring we can release our software frequently is based on the idea that we release small changes as soon as they are ready.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2890-2892 | Added on Monday, 1 June 2015 21:40:54
+
+By versioning together changes made to multiple services, we effectively embrace the idea that changing and deploying multiple services at once is acceptable. It becomes the norm, it becomes OK. In doing so, we cede one of the main advantages of microservices: the ability to deploy one service by itself, independently of other services.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2893-2895 | Added on Monday, 1 June 2015 21:41:44
+
+All too often, the approach of accepting multiple services being deployed together drifts into a situation where services become coupled. Before long, nicely separate services become increasingly tangled with others, and you never notice as you never try to deploy them by themselves.
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 2887 | Added on Monday, 1 June 2015 21:42:06
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 2903-2904 | Added on Monday, 1 June 2015 21:43:23
+
+focus on a small number of core journeys to test for the whole system.
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 2997 | Added on Monday, 1 June 2015 21:56:39
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 3009 | Added on Monday, 1 June 2015 21:58:43
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3033-3034 | Added on Tuesday, 2 June 2015 22:23:39
+
+Sometimes expending the same effort into getting better at remediation of a release can be significantly more beneficial than adding more automated functional tests.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3044-3045 | Added on Tuesday, 2 June 2015 22:25:37
+
+it may make much more sense to get something out now, to prove the idea or the business model before building robust software.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3049-3051 | Added on Tuesday, 2 June 2015 22:27:41
+
+Nonfunctional requirements is an umbrella term used to describe those characteristics your system exhibits that cannot simply be implemented like a normal feature.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3099-3103 | Added on Tuesday, 2 June 2015 22:38:00
+
+Optimize for fast feedback, and separate types of tests accordingly. Avoid the need for end-to-end tests wherever possible by using consumer-driven contracts. Use consumer-driven contracts to provide focus points for conversations between teams. Try to understand the trade-off between putting more efforts into testing and detecting issues faster in production (optimizing for MTBF versus MTTR).
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3201-3202 | Added on Wednesday, 3 June 2015 17:22:09
+
+At a bare minimum, for a web service you should probably expose metrics like response times and error rates
+==========
+Building Microservices (Sam Newman)
+- Your Bookmark at location 3299 | Added on Wednesday, 3 June 2015 21:59:06
+
+
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3315-3317 | Added on Wednesday, 3 June 2015 22:01:20
+
+So, for the type of person who will be looking at this data, consider the following: What they need to know right now What they might want later How they like to consume data
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3377-3378 | Added on Wednesday, 3 June 2015 22:12:02
+
+In the context of security, authentication is the process by which we confirm that a party is who she says she is.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3381-3382 | Added on Wednesday, 3 June 2015 22:12:59
+
+Authorization is the mechanism by which we map from a principal to the action we are allowing her to do.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3471-3473 | Added on Wednesday, 3 June 2015 22:29:32
+
+Another downside is that traffic sent via SSL cannot be cached by reverse proxies like Varnish or Squid. This means that if you need to cache traffic, it will have to be done either inside the server or inside the client.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3703-3704 | Added on Thursday, 4 June 2015 21:52:47
+
+First, if you don’t store it, no one can steal it. Second, if you don’t store it, no one (e.g., a governmental agency) can ask for it either!
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3766-3769 | Added on Thursday, 4 June 2015 22:01:28
+
+Melvin Conway’s paper How Do Committees Invent, published in Datamation magazine in April 1968, observed that: Any organization that designs a system (defined more broadly here than just information systems) will inevitably produce a design whose structure is a copy of the organization’s communication structure.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3796-3798 | Added on Thursday, 4 June 2015 22:06:16
+
+structured itself around small, independent teams, so that the services they created would also be independent from each other. This ensured that the architecture of the system was optimized for speed of change.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3836-3837 | Added on Thursday, 4 June 2015 22:12:51
+
+concerns about “throwing something over the wall” dissipate when there is no one to throw it to!
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3858-3859 | Added on Thursday, 4 June 2015 22:16:18
+
+microservices are: services modeled after a business domain, not a technical one.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3871-3872 | Added on Thursday, 4 June 2015 22:19:02
+
+The more standardized the technology stack and programming idioms in use across your system, the easier it is for other people to make changes in your services.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3976-3977 | Added on Thursday, 4 June 2015 22:35:16
+
+No matter how it looks at first, it’s always a people problem. Gerry Weinberg, The Second Law of Consulting
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 3983-3984 | Added on Thursday, 4 June 2015 22:36:53
+
+People who have in the past thrown work over the wall to someone else are accustomed to having someone else to blame, and may not feel comfortable being fully accountable for their work.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4012-4014 | Added on Friday, 5 June 2015 16:58:55
+
+Even for those of us not thinking at extreme scale, if we can embrace the possibility of failure we will be better off. For example, if we can handle the failure of a service gracefully, then it follows that we can also do in-place upgrades of a service, as a planned outage is much easier to deal with than an unplanned one.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4033-4035 | Added on Friday, 5 June 2015 17:04:51
+
+figuring out how to do blue/green deployments to eliminate downtime of a service might make sense for your online ecommerce system, but for your corporate intranet knowledge base it’s probably a step too far.
+==========
+Mini Habits: Smaller Habits, Bigger Results (Guise, Stephen)
+- Your Highlight on page 70 | location 1042-1043 | Added on Sunday, 7 June 2015 20:57:44
+
+One of the most important skills a person can develop is mindfulness, which is being aware of what you think and do.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4239-4240 | Added on Tuesday, 9 June 2015 21:41:59
+
+sometimes one big server can cost more than two smaller servers with the same combined raw power,
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4270-4271 | Added on Tuesday, 9 June 2015 21:56:56
+
+AWS, for example, is split into regions, which you can think of as distinct clouds. Each region is in turn split into two or more availability zones (AZs). AZs are AWS’s equivalent of a data center.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4289-4290 | Added on Tuesday, 9 June 2015 22:00:03
+
+Some load balancers provide useful features. A common one is SSL termination, where inbound HTTPS connections to the load balancer are transformed to HTTP connections once they hit the instance itself.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4325-4326 | Added on Tuesday, 9 June 2015 22:05:30
+
+“Challenges in Building Large-Scale Information Retrieval Systems” (WSDM 2009 conference), you should “design for ~10× growth, but plan to rewrite before ~100×.”
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4364-4365 | Added on Tuesday, 9 June 2015 22:11:38
+
+Years ago, using read replicas to scale was all the rage, although nowadays I would suggest you look to caching first, as it can deliver much more significant improvements in performance, often with less work.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4548-4549 | Added on Tuesday, 9 June 2015 22:40:49
+
+At its heart it tells us that in a distributed system, we have three things we can trade off against each other: consistency, availability, and partition tolerance.
+==========
+Building Microservices (Sam Newman)
+- Your Highlight at location 4550-4552 | Added on Tuesday, 9 June 2015 22:41:23
+
+Consistency is the system characteristic by which I will get the same answer if I go to multiple nodes. Availability means that every request receives a response. Partition tolerance is the system’s ability to handle the fact that communication between its parts is sometimes impossible.
+==========

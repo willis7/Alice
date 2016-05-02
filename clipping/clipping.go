@@ -4,3 +4,8 @@ package clipping
 type Clipping struct {
 	Book, Author, Content string
 }
+
+// ToString gives the to string output of the struct
+func (c *Clipping) ToString() string {
+	return "{ Title: " + c.Book + ", Author: " + c.Author + ", Content: " + c.Content + " }"
+}

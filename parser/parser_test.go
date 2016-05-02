@@ -1,6 +1,7 @@
 package parser
 
 import (
+	"fmt"
 	"testing"
 
 	"github.com/willis7/clippings-lib/clipping"
@@ -62,6 +63,7 @@ func TestParseClipping(t *testing.T) {
 		Author:  `Stephen R. Covey`,
 		Content: `Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”`}
 	if got != expected {
+		fmt.Println(got.ToString())
 		t.Error(`parseClipping didn't return expected object`)
 	}
 
