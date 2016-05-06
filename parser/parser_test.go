@@ -1,11 +1,13 @@
 package parser
 
 import (
-	"fmt"
 	"testing"
 
-	"github.com/willis7/clippings-lib/clipping"
+	"github.com/willis7/Alice/clipping"
 )
+
+// Tips
+// use the t.Log and/or t.Logf methods if you need to print information in a test.
 
 func TestParseAuthor(t *testing.T) {
 	// Given: a long string
@@ -63,8 +65,21 @@ func TestParseClipping(t *testing.T) {
 		Author:  `Stephen R. Covey`,
 		Content: `Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”`}
 	if got != expected {
-		fmt.Println(got.ToString())
 		t.Error(`parseClipping didn't return expected object`)
 	}
-
 }
+
+// Integration test
+// func TestParse(t *testing.T) {
+// 	// Given: a file with 5 clippings
+// 	s := `clippings-test.txt`
+//
+// 	// When: I give a file to the Parse function
+// 	clips := Parse(s)
+//
+// 	// Then: an array of Clippings is created
+// 	if len(clips) != 2 {
+// 		t.Error(`Parse didnt return the correct number of objects`)
+// 	}
+//
+// }

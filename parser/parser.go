@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/willis7/clippings-lib/clipping"
+	"github.com/willis7/Alice/clipping"
 )
 
 const clippingSeparator string = "=========="
@@ -81,9 +81,36 @@ func parseTitleAndAuthor(s string, c *clipping.Clipping) {
 // parseContent
 // the content is always the
 func parseContent(input string, c *clipping.Clipping) {
-
 	c.Content = strings.TrimSpace(input)
 }
+
+// Parse takes a path to a Kindle My Clippings.txt file and returns an array of Clipping objects
+// func Parse(path string) []clipping.Clipping {
+//
+// 	log.Printf("File path: %s", path)
+//
+// 	// Convert the file to bytes
+// 	fileStream, err := ioutil.ReadFile(path)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+//
+// 	// Convert []byte -> string
+// 	s := string(fileStream)
+//
+// 	// get array of clippings
+// 	clippingsTxt := splitClippings(s)
+//
+// 	clips := []clipping.Clipping{}
+// 	temp := clipping.Clipping{}
+//
+// 	for _, clippingText := range clippingsTxt {
+// 		parseClipping(clippingText, &temp)
+// 		clips = append(clips, temp)
+// 	}
+//
+// 	return clips
+// }
 
 // // FileToStructs takes a clippings.txt file and returns an array of Clipping objects
 // func FileToStructs(filename string) ([]*clipping.Clipping, error) {
