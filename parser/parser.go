@@ -2,37 +2,48 @@ package parser
 
 import (
 	"bufio"
+	"io/ioutil"
+	"log"
 	"regexp"
 	"strings"
 
 	"github.com/willis7/Alice/clipping"
+	"errors"
 )
 
-const clippingSeparator string = "=========="
-const authorRegxp string = `\((.*?)\)` // this regexp will find a bracket pair and all characters inbetween
-const titleRegxp string = `^(.*?)\(`   // this regexp will find everything up to, and including a "("
+const clippingSeparator string = "==========\n"
+const authorRegxp string = `\((.*?)\)` // find a bracket pair and all characters inbetween
+const titleRegxp string = `^(.*?)\(`   // find everything up to, and including a "("
 
 // parseTitle
 // uses a regular expression to find the title in a Kindle formatted string.
 // The Kindle always puts the title before the author.
+// TODO: rename to extractTitle
 func parseTitle(input string) string {
 	r, _ := regexp.Compile(titleRegxp)
 	match := r.FindString(input)
 
-	title := match[0 : len(match)-2]
-
+	if len(match) < 2 {
+		panic(errors.New("match: less than 2"))
+	}
+	title := match[: len(match) - 2]
 	return title
 }
 
 // parseAuthor
 // uses a regular expression to find the author name in a Kindle formatted string.
 // The Kindle always puts the author name between braces (<<author>>).
+// TODO: rename to extractAuthor
 func parseAuthor(input string) string {
 	r, _ := regexp.Compile(authorRegxp)
 	match := r.FindString(input)
 
+	if len(match) < 1 {
+		panic(errors.New("match: less than 1"))
+	}
+
 	// trim the brackets. Unfortunately "look behind" and "look ahead" are not supported in Go regexp
-	name := match[1 : len(match)-1]
+	name := match[1 : len(match) - 1]
 
 	return name
 }
@@ -42,7 +53,6 @@ func parseAuthor(input string) string {
 // into smaller chunks
 func splitClippings(input string) []string {
 	clips := strings.Split(input, clippingSeparator)
-
 	return clips
 }
 
@@ -73,63 +83,44 @@ func parseClipping(input string, c *clipping.Clipping) {
 // parseTitleAndAuthor
 // the first line in a Kindle clipping chunk includes the title and author
 // this function takes the
-func parseTitleAndAuthor(s string, c *clipping.Clipping) {
-	c.Book = parseTitle(s)
-	c.Author = parseAuthor(s)
+// TODO: rename to extractTitleAndAuthor
+func parseTitleAndAuthor(input string, c *clipping.Clipping) {
+	c.Book = parseTitle(input)
+	c.Author = parseAuthor(input)
 }
 
 // parseContent
-// the content is always the
+// the content is always the last line in a record
+// TODO: rename to extractContent
 func parseContent(input string, c *clipping.Clipping) {
 	c.Content = strings.TrimSpace(input)
 }
 
 // Parse takes a path to a Kindle My Clippings.txt file and returns an array of Clipping objects
-// func Parse(path string) []clipping.Clipping {
-//
-// 	log.Printf("File path: %s", path)
-//
-// 	// Convert the file to bytes
-// 	fileStream, err := ioutil.ReadFile(path)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-//
-// 	// Convert []byte -> string
-// 	s := string(fileStream)
-//
-// 	// get array of clippings
-// 	clippingsTxt := splitClippings(s)
-//
-// 	clips := []clipping.Clipping{}
-// 	temp := clipping.Clipping{}
-//
-// 	for _, clippingText := range clippingsTxt {
-// 		parseClipping(clippingText, &temp)
-// 		clips = append(clips, temp)
-// 	}
-//
-// 	return clips
-// }
+func Parse(path string) []clipping.Clipping {
 
-// // FileToStructs takes a clippings.txt file and returns an array of Clipping objects
-// func FileToStructs(filename string) ([]*clipping.Clipping, error) {
-//
-// 	// Convert the file to bytes
-// 	fileStream, err := ioutil.ReadFile(filename); if err != nil {
-// 		log.Fatal(err)
-// 	}
-//
-// 	// Convert []byte -> string
-// 	s := string(fileStream)
-//
-// 	// Split the string into individual clippings
-// 	[]clippings := String.Split(s, "==========")
-//
-// 	// Add to array
-//
-// 	// Return array
-// }
-//
-// // processClipping takes a buffer representing a single clipping
-// func processClipping(*buf Buffer)
+	// Convert the file to bytes
+	fileStream, err := ioutil.ReadFile(path)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Convert []byte -> string
+	s := string(fileStream)
+
+	// get array of clippings
+	clippingsTxt := splitClippings(s)
+
+	clippings := []clipping.Clipping{}
+	temp := clipping.Clipping{}
+
+	for _, ct := range clippingsTxt {
+		if len(ct) != 0 {
+			parseClipping(ct, &temp)
+			temp.ToString()
+			clippings = append(clippings, temp)
+		}
+	}
+
+	return clippings
+}
