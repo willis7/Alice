@@ -14,7 +14,7 @@ func TestParseAuthor(t *testing.T) {
 	s := "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)"
 
 	// When: we run the parse function
-	author := parseAuthor(s)
+	author := extractAuthor(s)
 
 	// Then: the correct name is found
 	if got, expected := author, "Stephen R. Covey"; got != expected {
@@ -27,7 +27,7 @@ func TestParseTitle(t *testing.T) {
 	s := "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)"
 
 	// When: we run the parse function
-	title := parseTitle(s)
+	title := extractTitle(s)
 
 	// Then: the correct title is found
 	if got, expected := title, "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change"; got != expected {

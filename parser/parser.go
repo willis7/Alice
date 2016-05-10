@@ -15,11 +15,10 @@ const clippingSeparator string = "==========\n"
 const authorRegxp string = `\((.*?)\)` // find a bracket pair and all characters inbetween
 const titleRegxp string = `^(.*?)\(`   // find everything up to, and including a "("
 
-// parseTitle
+// extractTitle
 // uses a regular expression to find the title in a Kindle formatted string.
 // The Kindle always puts the title before the author.
-// TODO: rename to extractTitle
-func parseTitle(input string) string {
+func extractTitle(input string) string {
 	r, _ := regexp.Compile(titleRegxp)
 	match := r.FindString(input)
 
@@ -30,11 +29,10 @@ func parseTitle(input string) string {
 	return title
 }
 
-// parseAuthor
+// extractAuthor
 // uses a regular expression to find the author name in a Kindle formatted string.
 // The Kindle always puts the author name between braces (<<author>>).
-// TODO: rename to extractAuthor
-func parseAuthor(input string) string {
+func extractAuthor(input string) string {
 	r, _ := regexp.Compile(authorRegxp)
 	match := r.FindString(input)
 
@@ -70,9 +68,9 @@ func parseClipping(input string, c *clipping.Clipping) {
 		// from the line number, determine what parsing is required
 		switch lineNumber {
 		case 1:
-			parseTitleAndAuthor(scanner.Text(), c)
+			extractTitleAndAuthor(scanner.Text(), c)
 		case 4:
-			parseContent(scanner.Text(), c)
+			extractContent(scanner.Text(), c)
 		default:
 			break
 		}
@@ -80,19 +78,17 @@ func parseClipping(input string, c *clipping.Clipping) {
 	}
 }
 
-// parseTitleAndAuthor
+// extractTitleAndAuthor
 // the first line in a Kindle clipping chunk includes the title and author
 // this function takes the
-// TODO: rename to extractTitleAndAuthor
-func parseTitleAndAuthor(input string, c *clipping.Clipping) {
-	c.Book = parseTitle(input)
-	c.Author = parseAuthor(input)
+func extractTitleAndAuthor(input string, c *clipping.Clipping) {
+	c.Book = extractTitle(input)
+	c.Author = extractAuthor(input)
 }
 
-// parseContent
+// extractContent
 // the content is always the last line in a record
-// TODO: rename to extractContent
-func parseContent(input string, c *clipping.Clipping) {
+func extractContent(input string, c *clipping.Clipping) {
 	c.Content = strings.TrimSpace(input)
 }
 
