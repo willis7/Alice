@@ -9,7 +9,7 @@ import (
 // Tips
 // use the t.Log and/or t.Logf methods if you need to print information in a test.
 
-func TestParseAuthor(t *testing.T) {
+func TestExtractAuthor(t *testing.T) {
 	// Given: a long string
 	s := "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)"
 
@@ -17,12 +17,12 @@ func TestParseAuthor(t *testing.T) {
 	author := extractAuthor(s)
 
 	// Then: the correct name is found
-	if got, expected := author, "Stephen R. Covey"; got != expected {
-		t.Errorf("The authors do not match. Got: %s, Expected: %s", got, expected)
+	if actual, expected := author, "Stephen R. Covey"; actual != expected {
+		t.Errorf("The authors do not match. Actual: %s, Expected: %s", actual, expected)
 	}
 }
 
-func TestParseTitle(t *testing.T) {
+func TestExtractTitle(t *testing.T) {
 	// Given
 	s := "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change (Stephen R. Covey)"
 
@@ -30,8 +30,8 @@ func TestParseTitle(t *testing.T) {
 	title := extractTitle(s)
 
 	// Then: the correct title is found
-	if got, expected := title, "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change"; got != expected {
-		t.Errorf("The titles do not match. Got: %s, Expected: %s", got, expected)
+	if actual, expected := title, "The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change"; actual != expected {
+		t.Errorf("The titles do not match. Actual: %s, Expected: %s", actual, expected)
 	}
 }
 
@@ -53,8 +53,8 @@ func TestSplitClippings(t *testing.T) {
 	clips := splitClippings(s)
 
 	// Then: expect the correct number of clippings
-	if got, expected := len(clips), 3; got != expected {
-		t.Errorf("spitClippings(%q) returned %d clippings, expected %d", s, got, expected)
+	if actual, expected := len(clips), 3; actual != expected {
+		t.Errorf("spitClippings(%q) returned %d clippings, expected %d", s, actual, expected)
 	}
 }
 
@@ -65,17 +65,39 @@ func TestParseClipping(t *testing.T) {
 
 	Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”
 	==========`
-	got := clipping.Clipping{}
+	actual := clipping.Clipping{}
 
 	// When: I parse the clipping
-	parseClipping(s, &got)
+	parseClipping(s, &actual)
 
 	// Then: expect a correctly populated structure
 	expected := clipping.Clipping{Book: `The 7 Habits of Highly Effective People_ Powerful Lessons in Personal Change`,
 		Author:  `Stephen R. Covey`,
 		Content: `Habit 1 says “You are the programmer.” Habit 2, then, says, “Write the program.”`}
-	if got != expected {
+	if actual != expected {
 		t.Error(`parseClipping didn't return expected object`)
+	}
+}
+
+func TestIsTypeBookmark(t *testing.T) {
+	// Given: a set of cases
+	var cases = []struct {
+		Input    string
+		Expected bool
+	}{
+		{"- Your Highlight at location 1763-1763", false},
+		{"Your Bookmark at location 333", false},
+		{"- Your Bookmark at location 333", true},
+	}
+
+	// When: I iterate over the cases calling the isTypeBookmark function
+	for _, tc := range cases {
+		actual := isTypeBookmark(tc.Input)
+
+		// Then: I get the correct output for the tests
+		if actual != tc.Expected {
+			t.Errorf("Actual: %b, Expected: %b", actual, tc.Expected)
+		}
 	}
 }
 
@@ -93,3 +115,5 @@ func TestParse(t *testing.T) {
 	}
 
 }
+
+// TODO: write a test to cover a scenario where entry is a bookmark

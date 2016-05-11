@@ -8,22 +8,23 @@ import (
 	"strings"
 
 	"github.com/willis7/Alice/clipping"
-	"errors"
 )
 
 const clippingSeparator string = "==========\n"
 const authorRegxp string = `\((.*?)\)` // find a bracket pair and all characters inbetween
 const titleRegxp string = `^(.*?)\(`   // find everything up to, and including a "("
+const bookmarkRegxp string = `- Your Bookmark at location`   // find everything up to, and including a "("
 
 // extractTitle
 // uses a regular expression to find the title in a Kindle formatted string.
 // The Kindle always puts the title before the author.
 func extractTitle(input string) string {
+	// TODO: switch to MustCompile. Panics when pattern not valid
 	r, _ := regexp.Compile(titleRegxp)
 	match := r.FindString(input)
 
 	if len(match) < 2 {
-		panic(errors.New("match: less than 2"))
+		panic("match: less than 2")
 	}
 	title := match[: len(match) - 2]
 	return title
@@ -33,11 +34,12 @@ func extractTitle(input string) string {
 // uses a regular expression to find the author name in a Kindle formatted string.
 // The Kindle always puts the author name between braces (<<author>>).
 func extractAuthor(input string) string {
+	// TODO: switch to MustCompile. Panics when pattern not valid
 	r, _ := regexp.Compile(authorRegxp)
 	match := r.FindString(input)
 
 	if len(match) < 1 {
-		panic(errors.New("match: less than 1"))
+		panic("match: less than 1")
 	}
 
 	// trim the brackets. Unfortunately "look behind" and "look ahead" are not supported in Go regexp
@@ -52,6 +54,17 @@ func extractAuthor(input string) string {
 func splitClippings(input string) []string {
 	clips := strings.Split(input, clippingSeparator)
 	return clips
+}
+
+// isTypeBookmark
+// checks if a string contains the Bookmark regular expression
+// signifying it is a Bookmark type of clipping
+func isTypeBookmark(input string) bool {
+	r := regexp.MustCompile(bookmarkRegxp)
+	if r.MatchString(input) {
+		return true
+	}
+	return false
 }
 
 // parseClipping
@@ -111,7 +124,8 @@ func Parse(path string) []clipping.Clipping {
 	temp := clipping.Clipping{}
 
 	for _, ct := range clippingsTxt {
-		if len(ct) != 0 {
+		// Should not be empty or a bookmark type clipping
+		if len(ct) != 0 && !isTypeBookmark(ct) {
 			parseClipping(ct, &temp)
 			temp.String()
 			clippings = append(clippings, temp)

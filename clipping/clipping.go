@@ -5,7 +5,7 @@ type Clipping struct {
 	Book, Author, Content string
 }
 
-// ToString gives the to string output of the struct
+// String returns the string representation of the object
 func (c *Clipping) String() string {
 	return "{ Title: " + c.Book + ", Author: " + c.Author + ", Content: " + c.Content + " }"
 }
