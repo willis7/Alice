@@ -113,7 +113,7 @@ func Parse(path string) []clipping.Clipping {
 	for _, ct := range clippingsTxt {
 		if len(ct) != 0 {
 			parseClipping(ct, &temp)
-			temp.ToString()
+			temp.String()
 			clippings = append(clippings, temp)
 		}
 	}
