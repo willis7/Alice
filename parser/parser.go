@@ -19,8 +19,7 @@ const bookmarkRegxp string = `- Your Bookmark at location`   // find everything 
 // uses a regular expression to find the title in a Kindle formatted string.
 // The Kindle always puts the title before the author.
 func extractTitle(input string) string {
-	// TODO: switch to MustCompile. Panics when pattern not valid
-	r, _ := regexp.Compile(titleRegxp)
+	r := regexp.MustCompile(titleRegxp)
 	match := r.FindString(input)
 
 	if len(match) < 2 {
@@ -34,8 +33,7 @@ func extractTitle(input string) string {
 // uses a regular expression to find the author name in a Kindle formatted string.
 // The Kindle always puts the author name between braces (<<author>>).
 func extractAuthor(input string) string {
-	// TODO: switch to MustCompile. Panics when pattern not valid
-	r, _ := regexp.Compile(authorRegxp)
+	r := regexp.MustCompile(authorRegxp)
 	match := r.FindString(input)
 
 	if len(match) < 1 {
