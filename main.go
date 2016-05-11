@@ -10,5 +10,9 @@ func main() {
 	s := `My Clippings.txt`
 	clips := parser.Parse(s)
 
-	fmt.Printf("clips = %#v \n", clips)
+	fmt.Println(len(clips))
+
+	for _, clip := range clips {
+		fmt.Println(clip.String())
+	}
 }

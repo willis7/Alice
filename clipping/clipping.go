@@ -6,6 +6,6 @@ type Clipping struct {
 }
 
 // ToString gives the to string output of the struct
-func (c *Clipping) ToString() string {
+func (c *Clipping) String() string {
 	return "{ Title: " + c.Book + ", Author: " + c.Author + ", Content: " + c.Content + " }"
 }
