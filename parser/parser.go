@@ -122,10 +122,9 @@ func Parse(path string) []clipping.Clipping {
 	temp := clipping.Clipping{}
 
 	for _, ct := range clippingsTxt {
-		// Should not be empty or a bookmark type clipping
+		// Dont process empty strings or Bookmark type clippings
 		if len(ct) != 0 && !isTypeBookmark(ct) {
 			parseClipping(ct, &temp)
-			temp.String()
 			clippings = append(clippings, temp)
 		}
 	}
