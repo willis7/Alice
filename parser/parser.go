@@ -10,10 +10,10 @@ import (
 	"github.com/willis7/Alice/clipping"
 )
 
-const clippingSeparator string = "==========\n"
+const clippingSeparator string = "==========\n" // TODO: carriage return can really fuck this up!!
 const authorRegxp string = `\((.*?)\)` // find a bracket pair and all characters inbetween
 const titleRegxp string = `^(.*?)\(`   // find everything up to, and including a "("
-const bookmarkRegxp string = `- Your Bookmark at location`   // find everything up to, and including a "("
+const bookmarkRegxp string = `- Your Bookmark at location`
 
 // extractTitle
 // uses a regular expression to find the title in a Kindle formatted string.

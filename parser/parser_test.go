@@ -4,6 +4,7 @@ import (
 	"testing"
 
 	"github.com/willis7/Alice/clipping"
+	"path/filepath"
 )
 
 // Tips
@@ -104,7 +105,7 @@ func TestIsTypeBookmark(t *testing.T) {
 // Integration test
 func TestParse(t *testing.T) {
 	// Given: a file with 4 clippings
-	s := `clippings-test.txt`
+	s := filepath.Join("test-fixtures", "clippings-test.txt")
 
 	// When: I give a file to the Parse function
 	clips := Parse(s)
