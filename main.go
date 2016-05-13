@@ -58,10 +58,11 @@ func main() {
 	s := `My Clippings.txt`
 	clips := parser.Parse(s)
 
-	fmt.Println(len(clips))
-
+	// Load the clipStore with initial data obtained from Parse()
 	for _, clip := range clips {
-		fmt.Println(clip.String())
+		id++
+		k := strconv.Itoa(id)
+		clipStore[k] = clip
 	}
 
 	r := mux.NewRouter().StrictSlash(false)

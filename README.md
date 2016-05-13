@@ -10,9 +10,11 @@ Named after the librarian from Ghostbusters, Alice is a simple application writt
 ## Todo
 
 * <s>Finish parser</s>
+* <s>Expose REST</s>
+* Refactor
 * Add db
-* Expose REST
 * Add cool UI
+* Refactor
 
 ## Development
 
