@@ -2,7 +2,9 @@ package clipping
 
 // Clipping is a struct which will be used to represent a clipping from Kindle.
 type Clipping struct {
-	Book, Author, Content string
+	Book    string `json:"title"`
+	Author  string `json:"author"`
+	Content string `json:"content"`
 }
 
 // String returns the string representation of the object

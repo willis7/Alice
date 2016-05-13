@@ -13,3 +13,7 @@ Named after the librarian from Ghostbusters, Alice is a simple application writt
 * Add db
 * Expose REST
 * Add cool UI
+
+## Development
+
+This project uses Glide for dependency management. First, install Glide then run `glide install`, this will install the project dependencies in a folder named `vendor`.
