@@ -7,6 +7,7 @@ import (
 	"github.com/willis7/Alice/clipping"
 	"encoding/json"
 	"strconv"
+	"github.com/willis7/Alice/middleware"
 )
 
 // Store Clips
@@ -63,9 +64,15 @@ func main() {
 		clipStore[k] = clip
 	}
 
+	// Convert to a HandlerFunc func type to allow the use of
+	// ordinary functions as HTTP handlers.
+	GetClipHandle := http.HandlerFunc(GetClipHandler)
+	PostClipHandle := http.HandlerFunc(PostClipHandler)
+
 	r := mux.NewRouter().StrictSlash(false)
-	r.HandleFunc("/api/clippings", GetClipHandler).Methods("GET")
-	r.HandleFunc("/api/clippings", PostClipHandler).Methods("POST")
+	// Use the Handler that was converted earlier in the Logging middleware
+	r.Handle("/api/clippings", middleware.LoggingHandler(GetClipHandle)).Methods("GET")
+	r.Handle("/api/clippings", middleware.LoggingHandler(PostClipHandle)).Methods("POST")
 	//TODO: r.HandleFunc("/api/clippings", GetClipHandler).Methods("PUT")
 	//TODO: r.HandleFunc("/api/clippings", GetClipHandler).Methods("DELETE")
 
