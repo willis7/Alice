@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/willis7/Alice/parser"
 	"github.com/gorilla/mux"
 	"net/http"
