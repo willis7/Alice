@@ -17,8 +17,9 @@ Named after the librarian from Ghostbusters, Alice is a simple application writt
 * <s>Expose REST</s>
 * Refactor
 * Add db
-* Add cool UI
+* <s>Add cool UI</s>
 * Refactor
+* Secure
 
 <hr>
 
