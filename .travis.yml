@@ -12,3 +12,8 @@ go:
 # - http://docs.travis-ci.com/user/workers/container-based-infrastructure/
 # - http://docs.travis-ci.com/user/workers/standard-infrastructure/
 sudo: false
+
+install: make deps
+
+env:
+  - GO15VENDOREXPERIMENT=1
